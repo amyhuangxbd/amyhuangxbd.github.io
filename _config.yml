@@ -12,9 +12,9 @@ title                    : "Amy Huang / prettyweb"
 title_separator          : "-"
 name                     : &name "Amy Huang"
 description              : &description "Senior front-end development engineer"
-url                      : https://prettyweb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://amyhuangxbd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "amyhuangxbd/prettyweb.github.io"
+repository               : "amyhuangxbd/amyhuangxbd.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
