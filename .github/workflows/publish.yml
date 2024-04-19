@@ -2,8 +2,7 @@
 name: publish-to-github-pages
 on:
   push:
-    branches:
-      - nextjs
+    branches: ["nextjs"]
 
 permissions:
   contents: read
