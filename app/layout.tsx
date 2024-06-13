@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "@/components/layout/navbar";
 import { Inter } from "next/font/google";
 import Script from 'next/script';
 import "./globals.css";
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        <main>{children}</main>
+      </body>
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3738291256196081"
      crossOrigin="anonymous"></Script>
     </html>
