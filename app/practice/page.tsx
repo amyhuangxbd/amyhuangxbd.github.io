@@ -16,13 +16,13 @@ const Page = () => {
             </section>
             <section>
                 <h1>threejs</h1>
-                <Link href={`/nextjs-blog-deployment/animate`} >人物</Link>
-                <Link href={`/nextjs-blog-deployment/ankou`} >threejs move</Link>
-                <Link href={`/nextjs-blog-deployment/cybertruck`} >threejs cybertruck</Link>
-                <Link href={`/nextjs-blog-deployment/level-one`} >level one</Link>
-                <Link href={`/nextjs-blog-deployment/physics`} >physics</Link>
-                <Link href={`/nextjs-blog-deployment/scrolling`} >scrolling</Link>
-                <Link href={`/nextjs-blog-deployment/terials`} >terials</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/animate`} >人物</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/ankou`} >threejs move</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/cybertruck`} >threejs cybertruck</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/level-one`} >level one</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/physics`} >physics</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/scrolling`} >scrolling</Link>
+                <Link href={`/nextjs-blog-deployment/threejs/terials`} >terials</Link>
 
             </section>
         </div>
