@@ -1,0 +1,30 @@
+.introduce-nav {
+    .loader span {
+        color: #faebd7;
+        text-shadow: 0 0 0 #faebd7;
+        animation: loading 1s ease-in-out infinite alternate;
+    }
+    
+    
+    @keyframes loading {
+        to {
+            text-shadow: 20px 0 70px #210812;
+            color: #3a3939;
+        }
+    }
+    
+    @for $i from 2 through 65 {
+        .loader span:nth-child(#{$i}) {
+            animation-delay: $i * 0.05s;
+        }
+        // .your-element:nth-child(#{$i}) {
+        //   background-color: mix(blue, yellow, $i * 5%); // Mix blue and yellow progressively
+        //   color: lighten(black, $i * 5%); // Lighten the text color progressively
+        //   padding: 10px; // Example: add padding
+        //   margin: 5px 0; // Example: add margin
+        //   border: 1px solid darken(blue, $i * 2%); // Example: add border with progressively darkening color
+        // }
+      }
+      
+}
+
